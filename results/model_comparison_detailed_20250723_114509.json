@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "timestamp": "20250723_114509",
+    "total_models": 8,
+    "dataset": "LFW",
+    "evaluation_type": "face_verification"
+  },
+  "summary": [
+    {
+      "Model": "VGG-Face",
+      "Accuracy": 0.95,
+      "Precision": 1.0,
+      "Recall": 0.9,
+      "F1-Score": 0.9473684210526315,
+      "Avg Processing Time (s)": 0.229981369972229,
+      "Error Rate": 0.0,
+      "Successful Pairs": 100,
+      "Total Pairs": 100
+    },
+    {
+      "Model": "Facenet",
+      "Accuracy": 0.87,
+      "Precision": 1.0,
+      "Recall": 0.74,
+      "F1-Score": 0.8505747126436781,
+      "Avg Processing Time (s)": 0.45030148267745973,
+      "Error Rate": 0.0,
+      "Successful Pairs": 100,
+      "Total Pairs": 100
+    },
+    {
+      "Model": "Facenet512",
+      "Accuracy": 0.83,
+      "Precision": 1.0,
+      "Recall": 0.66,
+      "F1-Score": 0.7951807228915663,
+      "Avg Processing Time (s)": 0.5901712775230408,
+      "Error Rate": 0.0,
+      "Successful Pairs": 100,
+      "Total Pairs": 100
+    },
+    {
+      "Model": "DeepID",
+      "Accuracy": 0.53,
+      "Precision": 1.0,
+      "Recall": 0.06,
+      "F1-Score": 0.11320754716981132,
+      "Avg Processing Time (s)": 0.0712937045097351,
+      "Error Rate": 0.0,
+      "Successful Pairs": 100,
+      "Total Pairs": 100
+    },
+    {
+      "Model": "ArcFace",
+      "Accuracy": 0.95,
+      "Precision": 1.0,
+      "Recall": 0.9,
+      "F1-Score": 0.9473684210526315,
+      "Avg Processing Time (s)": 0.3919050240516663,
+      "Error Rate": 0.0,
+      "Successful Pairs": 100,
+      "Total Pairs": 100
+    },
+    {
+      "Model": "Dlib",
+      "Accuracy": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1-Score": 0.0,
+      "Avg Processing Time (s)": 0.0,
+      "Error Rate": 1.0,
+      "Successful Pairs": 0,
+      "Total Pairs": 100
+    },
+    {
+      "Model": "SFace",
+      "Accuracy": 0.92,
+      "Precision": 0.9565217391304348,
+      "Recall": 0.88,
+      "F1-Score": 0.9166666666666666,
+      "Avg Processing Time (s)": 0.07193294763565064,
+      "Error Rate": 0.0,
+      "Successful Pairs": 100,
+      "Total Pairs": 100
+    },
+    {
+      "Model": "GhostFaceNet",
+      "Accuracy": 0.94,
+      "Precision": 1.0,
+      "Recall": 0.88,
+      "F1-Score": 0.9361702127659575,
+      "Avg Processing Time (s)": 0.48955085515975955,
+      "Error Rate": 0.0,
+      "Successful Pairs": 100,
+      "Total Pairs": 100
+    }
+  ],
+  "detailed_results": {
+    "VGG-Face": {
+      "model": "VGG-Face",
+      "accuracy": 0.95,
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1_score": 0.9473684210526315,
+      "avg_processing_time": 0.229981369972229,
+      "error_rate": 0.0,
+      "total_pairs": 100,
+      "successful_pairs": 100
+    },
+    "Facenet": {
+      "model": "Facenet",
+      "accuracy": 0.87,
+      "precision": 1.0,
+      "recall": 0.74,
+      "f1_score": 0.8505747126436781,
+      "avg_processing_time": 0.45030148267745973,
+      "error_rate": 0.0,
+      "total_pairs": 100,
+      "successful_pairs": 100
+    },
+    "Facenet512": {
+      "model": "Facenet512",
+      "accuracy": 0.83,
+      "precision": 1.0,
+      "recall": 0.66,
+      "f1_score": 0.7951807228915663,
+      "avg_processing_time": 0.5901712775230408,
+      "error_rate": 0.0,
+      "total_pairs": 100,
+      "successful_pairs": 100
+    },
+    "DeepID": {
+      "model": "DeepID",
+      "accuracy": 0.53,
+      "precision": 1.0,
+      "recall": 0.06,
+      "f1_score": 0.11320754716981132,
+      "avg_processing_time": 0.0712937045097351,
+      "error_rate": 0.0,
+      "total_pairs": 100,
+      "successful_pairs": 100
+    },
+    "ArcFace": {
+      "model": "ArcFace",
+      "accuracy": 0.95,
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1_score": 0.9473684210526315,
+      "avg_processing_time": 0.3919050240516663,
+      "error_rate": 0.0,
+      "total_pairs": 100,
+      "successful_pairs": 100
+    },
+    "Dlib": {
+      "model": "Dlib",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "avg_processing_time": 0.0,
+      "error_rate": 1.0,
+      "total_pairs": 100,
+      "successful_pairs": 0
+    },
+    "SFace": {
+      "model": "SFace",
+      "accuracy": 0.92,
+      "precision": 0.9565217391304348,
+      "recall": 0.88,
+      "f1_score": 0.9166666666666666,
+      "avg_processing_time": 0.07193294763565064,
+      "error_rate": 0.0,
+      "total_pairs": 100,
+      "successful_pairs": 100
+    },
+    "GhostFaceNet": {
+      "model": "GhostFaceNet",
+      "accuracy": 0.94,
+      "precision": 1.0,
+      "recall": 0.88,
+      "f1_score": 0.9361702127659575,
+      "avg_processing_time": 0.48955085515975955,
+      "error_rate": 0.0,
+      "total_pairs": 100,
+      "successful_pairs": 100
+    }
+  }
+}

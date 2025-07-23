@@ -1,0 +1,78 @@
+{
+  "timestamp": "20250723_114509",
+  "dataset_config": {
+    "name": "LFW",
+    "path": "dataset/lfw",
+    "max_samples": 100,
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "model_configurations": {
+    "VGG-Face": {
+      "name": "VGG-Face",
+      "backend": "VGG-Face",
+      "distance_metric": "cosine",
+      "input_shape": "224x224x3",
+      "description": "CNN architecture trained on VGGFace dataset"
+    },
+    "Facenet": {
+      "name": "Facenet",
+      "backend": "Facenet",
+      "distance_metric": "cosine",
+      "input_shape": "224x224x3",
+      "description": "Google's FaceNet with triplet loss training"
+    },
+    "Facenet512": {
+      "name": "Facenet512",
+      "backend": "Facenet512",
+      "distance_metric": "cosine",
+      "input_shape": "224x224x3",
+      "description": "FaceNet variant with 512-dimensional embeddings"
+    },
+    "DeepID": {
+      "name": "DeepID",
+      "backend": "DeepID",
+      "distance_metric": "cosine",
+      "input_shape": "224x224x3",
+      "description": "Deep Learning Face Representation"
+    },
+    "ArcFace": {
+      "name": "ArcFace",
+      "backend": "ArcFace",
+      "distance_metric": "cosine",
+      "input_shape": "224x224x3",
+      "description": "Additive Angular Margin Loss for face recognition"
+    },
+    "Dlib": {
+      "name": "Dlib",
+      "backend": "Dlib",
+      "distance_metric": "cosine",
+      "input_shape": "224x224x3",
+      "description": "Dlib's ResNet-based face recognition"
+    },
+    "SFace": {
+      "name": "SFace",
+      "backend": "SFace",
+      "distance_metric": "cosine",
+      "input_shape": "224x224x3",
+      "description": "Sigmoid-constrained Face Recognition"
+    },
+    "GhostFaceNet": {
+      "name": "GhostFaceNet",
+      "backend": "GhostFaceNet",
+      "distance_metric": "cosine",
+      "input_shape": "224x224x3",
+      "description": "GhostFaceNet for efficient face recognition"
+    }
+  },
+  "evaluation_settings": {
+    "distance_metric": "cosine",
+    "enforce_detection": false,
+    "metrics_calculated": [
+      "accuracy",
+      "precision",
+      "recall",
+      "f1_score"
+    ]
+  }
+}
